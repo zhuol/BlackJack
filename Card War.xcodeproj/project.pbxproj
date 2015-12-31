@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C37837101C22A03E0023F45A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378370F1C22A03E0023F45A /* AppDelegate.swift */; };
+		C37837121C22A03E0023F45A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37837111C22A03E0023F45A /* ViewController.swift */; };
+		C37837151C22A03E0023F45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37837131C22A03E0023F45A /* Main.storyboard */; };
+		C37837171C22A03E0023F45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37837161C22A03E0023F45A /* Assets.xcassets */; };
+		C378371A1C22A03E0023F45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37837181C22A03E0023F45A /* LaunchScreen.storyboard */; };
+		C37837251C22A03E0023F45A /* Card_WarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37837241C22A03E0023F45A /* Card_WarTests.swift */; };
+		C37837301C22A03E0023F45A /* Card_WarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378372F1C22A03E0023F45A /* Card_WarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C37837211C22A03E0023F45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C37837041C22A03D0023F45A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C378370B1C22A03E0023F45A;
+			remoteInfo = "Card War";
+		};
+		C378372C1C22A03E0023F45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C37837041C22A03D0023F45A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C378370B1C22A03E0023F45A;
+			remoteInfo = "Card War";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C378370C1C22A03E0023F45A /* Card War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card War.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C378370F1C22A03E0023F45A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C37837111C22A03E0023F45A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C37837141C22A03E0023F45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C37837161C22A03E0023F45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C37837191C22A03E0023F45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C378371B1C22A03E0023F45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37837201C22A03E0023F45A /* Card WarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card WarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37837241C22A03E0023F45A /* Card_WarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_WarTests.swift; sourceTree = "<group>"; };
+		C37837261C22A03E0023F45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C378372B1C22A03E0023F45A /* Card WarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card WarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C378372F1C22A03E0023F45A /* Card_WarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_WarUITests.swift; sourceTree = "<group>"; };
+		C37837311C22A03E0023F45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C37837091C22A03E0023F45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C378371D1C22A03E0023F45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37837281C22A03E0023F45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C37837031C22A03D0023F45A = {
+			isa = PBXGroup;
+			children = (
+				C378370E1C22A03E0023F45A /* Card War */,
+				C37837231C22A03E0023F45A /* Card WarTests */,
+				C378372E1C22A03E0023F45A /* Card WarUITests */,
+				C378370D1C22A03E0023F45A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C378370D1C22A03E0023F45A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C378370C1C22A03E0023F45A /* Card War.app */,
+				C37837201C22A03E0023F45A /* Card WarTests.xctest */,
+				C378372B1C22A03E0023F45A /* Card WarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C378370E1C22A03E0023F45A /* Card War */ = {
+			isa = PBXGroup;
+			children = (
+				C378370F1C22A03E0023F45A /* AppDelegate.swift */,
+				C37837111C22A03E0023F45A /* ViewController.swift */,
+				C37837131C22A03E0023F45A /* Main.storyboard */,
+				C37837161C22A03E0023F45A /* Assets.xcassets */,
+				C37837181C22A03E0023F45A /* LaunchScreen.storyboard */,
+				C378371B1C22A03E0023F45A /* Info.plist */,
+			);
+			path = "Card War";
+			sourceTree = "<group>";
+		};
+		C37837231C22A03E0023F45A /* Card WarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C37837241C22A03E0023F45A /* Card_WarTests.swift */,
+				C37837261C22A03E0023F45A /* Info.plist */,
+			);
+			path = "Card WarTests";
+			sourceTree = "<group>";
+		};
+		C378372E1C22A03E0023F45A /* Card WarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C378372F1C22A03E0023F45A /* Card_WarUITests.swift */,
+				C37837311C22A03E0023F45A /* Info.plist */,
+			);
+			path = "Card WarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C378370B1C22A03E0023F45A /* Card War */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37837341C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Card War" */;
+			buildPhases = (
+				C37837081C22A03E0023F45A /* Sources */,
+				C37837091C22A03E0023F45A /* Frameworks */,
+				C378370A1C22A03E0023F45A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card War";
+			productName = "Card War";
+			productReference = C378370C1C22A03E0023F45A /* Card War.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C378371F1C22A03E0023F45A /* Card WarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37837371C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Card WarTests" */;
+			buildPhases = (
+				C378371C1C22A03E0023F45A /* Sources */,
+				C378371D1C22A03E0023F45A /* Frameworks */,
+				C378371E1C22A03E0023F45A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C37837221C22A03E0023F45A /* PBXTargetDependency */,
+			);
+			name = "Card WarTests";
+			productName = "Card WarTests";
+			productReference = C37837201C22A03E0023F45A /* Card WarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C378372A1C22A03E0023F45A /* Card WarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C378373A1C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Card WarUITests" */;
+			buildPhases = (
+				C37837271C22A03E0023F45A /* Sources */,
+				C37837281C22A03E0023F45A /* Frameworks */,
+				C37837291C22A03E0023F45A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C378372D1C22A03E0023F45A /* PBXTargetDependency */,
+			);
+			name = "Card WarUITests";
+			productName = "Card WarUITests";
+			productReference = C378372B1C22A03E0023F45A /* Card WarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C37837041C22A03D0023F45A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hang Li";
+				TargetAttributes = {
+					C378370B1C22A03E0023F45A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5LFPXV45V6;
+					};
+					C378371F1C22A03E0023F45A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C378370B1C22A03E0023F45A;
+					};
+					C378372A1C22A03E0023F45A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C378370B1C22A03E0023F45A;
+					};
+				};
+			};
+			buildConfigurationList = C37837071C22A03D0023F45A /* Build configuration list for PBXProject "Card War" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C37837031C22A03D0023F45A;
+			productRefGroup = C378370D1C22A03E0023F45A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C378370B1C22A03E0023F45A /* Card War */,
+				C378371F1C22A03E0023F45A /* Card WarTests */,
+				C378372A1C22A03E0023F45A /* Card WarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C378370A1C22A03E0023F45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C378371A1C22A03E0023F45A /* LaunchScreen.storyboard in Resources */,
+				C37837171C22A03E0023F45A /* Assets.xcassets in Resources */,
+				C37837151C22A03E0023F45A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C378371E1C22A03E0023F45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37837291C22A03E0023F45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C37837081C22A03E0023F45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37837121C22A03E0023F45A /* ViewController.swift in Sources */,
+				C37837101C22A03E0023F45A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C378371C1C22A03E0023F45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37837251C22A03E0023F45A /* Card_WarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37837271C22A03E0023F45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37837301C22A03E0023F45A /* Card_WarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C37837221C22A03E0023F45A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C378370B1C22A03E0023F45A /* Card War */;
+			targetProxy = C37837211C22A03E0023F45A /* PBXContainerItemProxy */;
+		};
+		C378372D1C22A03E0023F45A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C378370B1C22A03E0023F45A /* Card War */;
+			targetProxy = C378372C1C22A03E0023F45A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C37837131C22A03E0023F45A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37837141C22A03E0023F45A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C37837181C22A03E0023F45A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37837191C22A03E0023F45A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C37837321C22A03E0023F45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C37837331C22A03E0023F45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C37837351C22A03E0023F45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Card War/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuli.blackjack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C37837361C22A03E0023F45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Card War/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuli.blackjack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C37837381C22A03E0023F45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Card WarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.Card-WarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card War.app/Card War";
+			};
+			name = Debug;
+		};
+		C37837391C22A03E0023F45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Card WarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.Card-WarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card War.app/Card War";
+			};
+			name = Release;
+		};
+		C378373B1C22A03E0023F45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Card WarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.Card-WarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Card War";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C378373C1C22A03E0023F45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Card WarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.Card-WarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Card War";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C37837071C22A03D0023F45A /* Build configuration list for PBXProject "Card War" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37837321C22A03E0023F45A /* Debug */,
+				C37837331C22A03E0023F45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37837341C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Card War" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37837351C22A03E0023F45A /* Debug */,
+				C37837361C22A03E0023F45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37837371C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Card WarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37837381C22A03E0023F45A /* Debug */,
+				C37837391C22A03E0023F45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C378373A1C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Card WarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C378373B1C22A03E0023F45A /* Debug */,
+				C378373C1C22A03E0023F45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C37837041C22A03D0023F45A /* Project object */;
+}
