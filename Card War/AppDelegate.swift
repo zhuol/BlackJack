@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Card War
 //
-//  Created by Hang Li on 15/12/17.
-//  Copyright © 2015 Hang Li. All rights reserved.
+//  Created by Zhuo Li on 15/12/17.
+//  Copyright © 2015 Zhuo Li. All rights reserved.
 //
 
 import UIKit
