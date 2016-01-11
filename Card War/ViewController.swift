@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var secondCardImageView: UIImageView!
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var backgroundImageView: UIImageView!
-    @IBOutlet weak var player1ScoreLable: UILabel!
-    @IBOutlet weak var player2ScoreLable: UILabel!
+    @IBOutlet weak var dealerScoreLable: UILabel!
+    @IBOutlet weak var playerScoreLable: UILabel!
     
     let decks = 4
     let one_deck:[Int] = [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5,
@@ -23,8 +23,8 @@ class ViewController: UIViewController {
         11, 11, 11, 11, 12, 12, 12, 12, 13, 13, 13, 13]
     
     var default_cards:[Int] = []
-    var player1Score:Int = 0
-    var player2Score:Int = 0
+    var dealerScore:Int = 0
+    var playerScore:Int = 0
     
     var cardNumberArray:[String] = ["card1", "card2", "card3", "card4", "card5", "card6", "card7", "card8", "card9", "card10", "card11", "card12", "card13"]
     
@@ -60,8 +60,8 @@ class ViewController: UIViewController {
         
         if firstRandomNum > secondRandomNum {
         
-            self.player1Score += 1
-            self.player1ScoreLable.text = String(self.player1Score)
+            self.dealerScore += 1
+            self.dealerScoreLable.text = String(self.dealerScore)
         
         }
         else if firstRandomNum == secondRandomNum {
@@ -71,8 +71,8 @@ class ViewController: UIViewController {
         }
         else {
             
-            self.player2Score += 1
-            self.player2ScoreLable.text = String(self.player2Score)
+            self.playerScore += 1
+            self.playerScoreLable.text = String(self.playerScore)
             
         }
         
