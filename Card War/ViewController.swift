@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var firstCardImageView: UIImageView!
-    @IBOutlet weak var secondCardImageView: UIImageView!
+    @IBOutlet weak var dealerCardImageView: UIImageView!
+    @IBOutlet weak var playerCardImageView: UIImageView!
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var dealerScoreLable: UILabel!
@@ -25,8 +25,10 @@ class ViewController: UIViewController {
     var default_cards:[Int] = []
     var dealerScore:Int = 0
     var playerScore:Int = 0
+    var cardIndex:Int = 0
+    var cardMax:Int = 0
     
-    var cardNumberArray:[String] = ["card1", "card2", "card3", "card4", "card5", "card6", "card7", "card8", "card9", "card10", "card11", "card12", "card13"]
+    // var cardNumberArray:[String] = ["card1", "card2", "card3", "card4", "card5", "card6", "card7", "card8", "card9", "card10", "card11", "card12", "card13"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +39,7 @@ class ViewController: UIViewController {
         
         default_cards = default_cards.shuffle()
         print(default_cards)
+        cardMax = default_cards.count
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,37 +48,23 @@ class ViewController: UIViewController {
     }
 
     @IBAction func playButtonTapped(sender: UIButton) {
-        
-        let firstRandomNum = Int(arc4random_uniform(13))
-        
-        let firstCardString:String = self.cardNumberArray[firstRandomNum]
-        
-        let secondRandomNum = Int(arc4random_uniform(13))
-        
-        let secondCardString:String = self.cardNumberArray[secondRandomNum]
-        
-        
-        self.firstCardImageView.image = UIImage(named: firstCardString)
-        self.secondCardImageView.image = UIImage(named: secondCardString)
-        
-        if firstRandomNum > secondRandomNum {
-        
-            self.dealerScore += 1
-            self.dealerScoreLable.text = String(self.dealerScore)
-        
+        let dealerCardString:String = "card" + String(self.default_cards[cardIndex])
+        self.dealerScore += default_cards[cardIndex]
+        self.dealerScoreLable.text = String(self.dealerScore)
+        cardIndex++
+        if(cardIndex == cardMax){
+            default_cards = default_cards.shuffle()
         }
-        else if firstRandomNum == secondRandomNum {
-            
-            
+        self.dealerCardImageView.image = UIImage(named: dealerCardString)
         
+        let playerCardString:String = "card" + String(self.default_cards[cardIndex])
+        self.playerScore += default_cards[cardIndex]
+        self.playerScoreLable.text = String(self.playerScore)
+        cardIndex++
+        if(cardIndex == cardMax){
+            default_cards = default_cards.shuffle()
         }
-        else {
-            
-            self.playerScore += 1
-            self.playerScoreLable.text = String(self.playerScore)
-            
-        }
-        
+        self.playerCardImageView.image = UIImage(named: playerCardString)
     }
 
 }

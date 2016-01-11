@@ -239,11 +239,11 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="backgroundImageView" destination="4it-qN-4rs" id="FzX-kL-2Mr"/>
+                        <outlet property="dealerCardImageView" destination="gdZ-71-imB" id="A4B-Fc-cSj"/>
                         <outlet property="dealerScoreLable" destination="kmN-EC-vvc" id="GgR-MC-osZ"/>
-                        <outlet property="firstCardImageView" destination="gdZ-71-imB" id="dfG-H7-AOe"/>
                         <outlet property="playButton" destination="4hB-Kz-XfR" id="yRQ-Zg-u2C"/>
+                        <outlet property="playerCardImageView" destination="ue1-za-79Y" id="xEF-xQ-W08"/>
                         <outlet property="playerScoreLable" destination="ePh-7N-R6E" id="5qA-3L-5VS"/>
-                        <outlet property="secondCardImageView" destination="ue1-za-79Y" id="Qqi-Qp-3VR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
