@@ -13,8 +13,8 @@
 		C37837151C22A03E0023F45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37837131C22A03E0023F45A /* Main.storyboard */; };
 		C37837171C22A03E0023F45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37837161C22A03E0023F45A /* Assets.xcassets */; };
 		C378371A1C22A03E0023F45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37837181C22A03E0023F45A /* LaunchScreen.storyboard */; };
-		C37837251C22A03E0023F45A /* Card_WarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37837241C22A03E0023F45A /* Card_WarTests.swift */; };
-		C37837301C22A03E0023F45A /* Card_WarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378372F1C22A03E0023F45A /* Card_WarUITests.swift */; };
+		C37837251C22A03E0023F45A /* BlackjackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37837241C22A03E0023F45A /* BlackjackTests.swift */; };
+		C37837301C22A03E0023F45A /* BlackjackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378372F1C22A03E0023F45A /* BlackjackUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,14 +23,14 @@
 			containerPortal = C37837041C22A03D0023F45A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C378370B1C22A03E0023F45A;
-			remoteInfo = "Card War";
+			remoteInfo = "Blackjack";
 		};
 		C378372C1C22A03E0023F45A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C37837041C22A03D0023F45A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C378370B1C22A03E0023F45A;
-			remoteInfo = "Card War";
+			remoteInfo = "Blackjack";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,10 +44,10 @@
 		C37837191C22A03E0023F45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C378371B1C22A03E0023F45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C37837201C22A03E0023F45A /* Blackjack.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blackjack.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C37837241C22A03E0023F45A /* Card_WarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_WarTests.swift; sourceTree = "<group>"; };
+		C37837241C22A03E0023F45A /* BlackjackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackjackTests.swift; sourceTree = "<group>"; };
 		C37837261C22A03E0023F45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C378372B1C22A03E0023F45A /* Blackjack.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blackjack.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C378372F1C22A03E0023F45A /* Card_WarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_WarUITests.swift; sourceTree = "<group>"; };
+		C378372F1C22A03E0023F45A /* BlackjackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackjackUITests.swift; sourceTree = "<group>"; };
 		C37837311C22A03E0023F45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,27 +108,27 @@
 				B3896B1B1C3EEF1A00B283DE /* extensions.swift */,
 			);
 			name = BlackJack;
-			path = "Card War";
+			path = "Blackjack";
 			sourceTree = "<group>";
 		};
 		C37837231C22A03E0023F45A /* BlackJackTests */ = {
 			isa = PBXGroup;
 			children = (
-				C37837241C22A03E0023F45A /* Card_WarTests.swift */,
+				C37837241C22A03E0023F45A /* BlackjackTests.swift */,
 				C37837261C22A03E0023F45A /* Info.plist */,
 			);
 			name = BlackJackTests;
-			path = "Card WarTests";
+			path = "BlackjackTests";
 			sourceTree = "<group>";
 		};
 		C378372E1C22A03E0023F45A /* BlackJackUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C378372F1C22A03E0023F45A /* Card_WarUITests.swift */,
+				C378372F1C22A03E0023F45A /* BlackjackUITests.swift */,
 				C37837311C22A03E0023F45A /* Info.plist */,
 			);
 			name = BlackJackUITests;
-			path = "Card WarUITests";
+			path = "BlackjackUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +147,7 @@
 			dependencies = (
 			);
 			name = Blackjack;
-			productName = "Card War";
+			productName = "Blackjack";
 			productReference = C378370C1C22A03E0023F45A /* Blackjack.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -165,7 +165,7 @@
 				C37837221C22A03E0023F45A /* PBXTargetDependency */,
 			);
 			name = BlackjackTests;
-			productName = "Card WarTests";
+			productName = "BlackjackTests";
 			productReference = C37837201C22A03E0023F45A /* Blackjack.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -183,7 +183,7 @@
 				C378372D1C22A03E0023F45A /* PBXTargetDependency */,
 			);
 			name = BlackjackUITests;
-			productName = "Card WarUITests";
+			productName = "BlackjackUITests";
 			productReference = C378372B1C22A03E0023F45A /* Blackjack.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C37837251C22A03E0023F45A /* Card_WarTests.swift in Sources */,
+				C37837251C22A03E0023F45A /* BlackjackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C37837301C22A03E0023F45A /* Card_WarUITests.swift in Sources */,
+				C37837301C22A03E0023F45A /* BlackjackUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +407,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "Card War/Info.plist";
+				INFOPLIST_FILE = "Blackjack/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zuli.blackjack;
@@ -423,7 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "Card War/Info.plist";
+				INFOPLIST_FILE = "Blackjack/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zuli.blackjack;
@@ -437,9 +437,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Card WarTests/Info.plist";
+				INFOPLIST_FILE = "BlackjackTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.Card-WarTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.BlackjackTests";
 				PRODUCT_NAME = Blackjack;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blackjack.app/Blackjack";
 			};
@@ -449,9 +449,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Card WarTests/Info.plist";
+				INFOPLIST_FILE = "BlackjackTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.Card-WarTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.BlackjackTests";
 				PRODUCT_NAME = Blackjack;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blackjack.app/Blackjack";
 			};
@@ -460,11 +460,11 @@
 		C378373B1C22A03E0023F45A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Card WarUITests/Info.plist";
+				INFOPLIST_FILE = "BlackjackUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.Card-WarUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.BlackjackUITests";
 				PRODUCT_NAME = Blackjack;
-				TEST_TARGET_NAME = "Card War";
+				TEST_TARGET_NAME = "Blackjack";
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -472,11 +472,11 @@
 		C378373C1C22A03E0023F45A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Card WarUITests/Info.plist";
+				INFOPLIST_FILE = "BlackjackUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.Card-WarUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.BlackjackUITests";
 				PRODUCT_NAME = Blackjack;
-				TEST_TARGET_NAME = "Card War";
+				TEST_TARGET_NAME = "Blackjack";
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
