@@ -12,6 +12,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var dealerCardImageView: UIImageView!
     @IBOutlet weak var playerCardImageView: UIImageView!
+    @IBOutlet weak var FirstCardView: UIImageView!
+    @IBOutlet weak var SecondCardView: UIImageView!
+    @IBOutlet weak var ThirdCardView: UIImageView!
+    @IBOutlet weak var ForthCardView: UIImageView!
+    @IBOutlet weak var FifthCardView: UIImageView!
+    @IBOutlet weak var SixthCardView: UIImageView!
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var dealerScoreLable: UILabel!
@@ -27,6 +33,7 @@ class ViewController: UIViewController {
     var playerScore:Int = 0
     var cardIndex:Int = 0
     var cardMax:Int = 0
+    var cardCounter:Int = 1
     
     // var cardNumberArray:[String] = ["card1", "card2", "card3", "card4", "card5", "card6", "card7", "card8", "card9", "card10", "card11", "card12", "card13"]
     
@@ -48,12 +55,22 @@ class ViewController: UIViewController {
     }
 
     @IBAction func playButtonTapped(sender: UIButton) {
+        if(self.playerScore == 0){
+            self.FirstCardView.image = UIImage(named: "")
+            self.SecondCardView.image = UIImage(named: "")
+            self.ThirdCardView.image = UIImage(named: "")
+            self.ForthCardView.image = UIImage(named: "")
+            self.FifthCardView.image = UIImage(named: "")
+            self.SixthCardView.image = UIImage(named: "")
+        }
+
         let dealerCardString:String = "card" + String(self.default_cards[cardIndex])
         self.dealerScore += default_cards[cardIndex]
         self.dealerScoreLable.text = String(self.dealerScore)
         cardIndex++
         if(cardIndex == cardMax){
             default_cards = default_cards.shuffle()
+            cardIndex = 0
         }
         self.dealerCardImageView.image = UIImage(named: dealerCardString)
         
@@ -63,8 +80,47 @@ class ViewController: UIViewController {
         cardIndex++
         if(cardIndex == cardMax){
             default_cards = default_cards.shuffle()
+            cardIndex = 0
         }
         self.playerCardImageView.image = UIImage(named: playerCardString)
+        
+        // Display cards
+        if (self.cardCounter == 1) {
+            self.FirstCardView.image = UIImage(named: playerCardString)
+        }
+        else if (self.cardCounter == 2) {
+            self.SecondCardView.image = UIImage(named: playerCardString)
+        }
+        else if (self.cardCounter == 3) {
+            self.ThirdCardView.image = UIImage(named: playerCardString)
+        }
+        else if (self.cardCounter == 4) {
+            self.ForthCardView.image = UIImage(named: playerCardString)
+        }
+        else if (self.cardCounter == 5) {
+            self.FifthCardView.image = UIImage(named: playerCardString)
+        }
+        else if (self.cardCounter == 6) {
+            self.SixthCardView.image = UIImage(named: playerCardString)
+        }
+        else{
+            // To be handled..
+        }
+        self.cardCounter++
+        
+        // Judge cards value
+        if (self.playerScore == 21) {
+            self.playerCardImageView.image = UIImage(named:"frontlable")
+            self.cardCounter = 1
+            self.playerScore = 0
+            self.dealerScore = 0
+        }
+        else if (self.playerScore > 21) {
+            self.playerCardImageView.image = UIImage(named:"cardback")
+            self.cardCounter = 1
+            self.playerScore = 0
+            self.dealerScore = 0
+        }
     }
 
 }
