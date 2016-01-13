@@ -36,17 +36,17 @@
 
 /* Begin PBXFileReference section */
 		B3896B1B1C3EEF1A00B283DE /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
-		C378370C1C22A03E0023F45A /* Card War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card War.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C378370C1C22A03E0023F45A /* Blackjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blackjack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C378370F1C22A03E0023F45A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C37837111C22A03E0023F45A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C37837141C22A03E0023F45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C37837161C22A03E0023F45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C37837191C22A03E0023F45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C378371B1C22A03E0023F45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C37837201C22A03E0023F45A /* Card WarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card WarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37837201C22A03E0023F45A /* Blackjack.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blackjack.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37837241C22A03E0023F45A /* Card_WarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_WarTests.swift; sourceTree = "<group>"; };
 		C37837261C22A03E0023F45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C378372B1C22A03E0023F45A /* Card WarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card WarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C378372B1C22A03E0023F45A /* Blackjack.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blackjack.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C378372F1C22A03E0023F45A /* Card_WarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_WarUITests.swift; sourceTree = "<group>"; };
 		C37837311C22A03E0023F45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,9 +79,9 @@
 		C37837031C22A03D0023F45A = {
 			isa = PBXGroup;
 			children = (
-				C378370E1C22A03E0023F45A /* Card War */,
-				C37837231C22A03E0023F45A /* Card WarTests */,
-				C378372E1C22A03E0023F45A /* Card WarUITests */,
+				C378370E1C22A03E0023F45A /* BlackJack */,
+				C37837231C22A03E0023F45A /* BlackJackTests */,
+				C378372E1C22A03E0023F45A /* BlackJackUITests */,
 				C378370D1C22A03E0023F45A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		C378370D1C22A03E0023F45A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C378370C1C22A03E0023F45A /* Card War.app */,
-				C37837201C22A03E0023F45A /* Card WarTests.xctest */,
-				C378372B1C22A03E0023F45A /* Card WarUITests.xctest */,
+				C378370C1C22A03E0023F45A /* Blackjack.app */,
+				C37837201C22A03E0023F45A /* Blackjack.xctest */,
+				C378372B1C22A03E0023F45A /* Blackjack.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C378370E1C22A03E0023F45A /* Card War */ = {
+		C378370E1C22A03E0023F45A /* BlackJack */ = {
 			isa = PBXGroup;
 			children = (
 				C378370F1C22A03E0023F45A /* AppDelegate.swift */,
@@ -107,33 +107,36 @@
 				C378371B1C22A03E0023F45A /* Info.plist */,
 				B3896B1B1C3EEF1A00B283DE /* extensions.swift */,
 			);
+			name = BlackJack;
 			path = "Card War";
 			sourceTree = "<group>";
 		};
-		C37837231C22A03E0023F45A /* Card WarTests */ = {
+		C37837231C22A03E0023F45A /* BlackJackTests */ = {
 			isa = PBXGroup;
 			children = (
 				C37837241C22A03E0023F45A /* Card_WarTests.swift */,
 				C37837261C22A03E0023F45A /* Info.plist */,
 			);
+			name = BlackJackTests;
 			path = "Card WarTests";
 			sourceTree = "<group>";
 		};
-		C378372E1C22A03E0023F45A /* Card WarUITests */ = {
+		C378372E1C22A03E0023F45A /* BlackJackUITests */ = {
 			isa = PBXGroup;
 			children = (
 				C378372F1C22A03E0023F45A /* Card_WarUITests.swift */,
 				C37837311C22A03E0023F45A /* Info.plist */,
 			);
+			name = BlackJackUITests;
 			path = "Card WarUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C378370B1C22A03E0023F45A /* Card War */ = {
+		C378370B1C22A03E0023F45A /* Blackjack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C37837341C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Card War" */;
+			buildConfigurationList = C37837341C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Blackjack" */;
 			buildPhases = (
 				C37837081C22A03E0023F45A /* Sources */,
 				C37837091C22A03E0023F45A /* Frameworks */,
@@ -143,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = "Card War";
+			name = Blackjack;
 			productName = "Card War";
-			productReference = C378370C1C22A03E0023F45A /* Card War.app */;
+			productReference = C378370C1C22A03E0023F45A /* Blackjack.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C378371F1C22A03E0023F45A /* Card WarTests */ = {
+		C378371F1C22A03E0023F45A /* BlackjackTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C37837371C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Card WarTests" */;
+			buildConfigurationList = C37837371C22A03E0023F45A /* Build configuration list for PBXNativeTarget "BlackjackTests" */;
 			buildPhases = (
 				C378371C1C22A03E0023F45A /* Sources */,
 				C378371D1C22A03E0023F45A /* Frameworks */,
@@ -161,14 +164,14 @@
 			dependencies = (
 				C37837221C22A03E0023F45A /* PBXTargetDependency */,
 			);
-			name = "Card WarTests";
+			name = BlackjackTests;
 			productName = "Card WarTests";
-			productReference = C37837201C22A03E0023F45A /* Card WarTests.xctest */;
+			productReference = C37837201C22A03E0023F45A /* Blackjack.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C378372A1C22A03E0023F45A /* Card WarUITests */ = {
+		C378372A1C22A03E0023F45A /* BlackjackUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C378373A1C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Card WarUITests" */;
+			buildConfigurationList = C378373A1C22A03E0023F45A /* Build configuration list for PBXNativeTarget "BlackjackUITests" */;
 			buildPhases = (
 				C37837271C22A03E0023F45A /* Sources */,
 				C37837281C22A03E0023F45A /* Frameworks */,
@@ -179,9 +182,9 @@
 			dependencies = (
 				C378372D1C22A03E0023F45A /* PBXTargetDependency */,
 			);
-			name = "Card WarUITests";
+			name = BlackjackUITests;
 			productName = "Card WarUITests";
-			productReference = C378372B1C22A03E0023F45A /* Card WarUITests.xctest */;
+			productReference = C378372B1C22A03E0023F45A /* Blackjack.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C37837071C22A03D0023F45A /* Build configuration list for PBXProject "Card War" */;
+			buildConfigurationList = C37837071C22A03D0023F45A /* Build configuration list for PBXProject "Blackjack" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,9 +224,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C378370B1C22A03E0023F45A /* Card War */,
-				C378371F1C22A03E0023F45A /* Card WarTests */,
-				C378372A1C22A03E0023F45A /* Card WarUITests */,
+				C378370B1C22A03E0023F45A /* Blackjack */,
+				C378371F1C22A03E0023F45A /* BlackjackTests */,
+				C378372A1C22A03E0023F45A /* BlackjackUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -287,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		C37837221C22A03E0023F45A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C378370B1C22A03E0023F45A /* Card War */;
+			target = C378370B1C22A03E0023F45A /* Blackjack */;
 			targetProxy = C37837211C22A03E0023F45A /* PBXContainerItemProxy */;
 		};
 		C378372D1C22A03E0023F45A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C378370B1C22A03E0023F45A /* Card War */;
+			target = C378370B1C22A03E0023F45A /* Blackjack */;
 			targetProxy = C378372C1C22A03E0023F45A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,7 +411,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zuli.blackjack;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Blackjack;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -424,7 +427,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zuli.blackjack;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Blackjack;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -437,8 +440,8 @@
 				INFOPLIST_FILE = "Card WarTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.Card-WarTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card War.app/Card War";
+				PRODUCT_NAME = Blackjack;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blackjack.app/Blackjack";
 			};
 			name = Debug;
 		};
@@ -449,8 +452,8 @@
 				INFOPLIST_FILE = "Card WarTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.Card-WarTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card War.app/Card War";
+				PRODUCT_NAME = Blackjack;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blackjack.app/Blackjack";
 			};
 			name = Release;
 		};
@@ -460,7 +463,7 @@
 				INFOPLIST_FILE = "Card WarUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.Card-WarUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Blackjack;
 				TEST_TARGET_NAME = "Card War";
 				USES_XCTRUNNER = YES;
 			};
@@ -472,7 +475,7 @@
 				INFOPLIST_FILE = "Card WarUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SummerFrog.Card-WarUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Blackjack;
 				TEST_TARGET_NAME = "Card War";
 				USES_XCTRUNNER = YES;
 			};
@@ -481,7 +484,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C37837071C22A03D0023F45A /* Build configuration list for PBXProject "Card War" */ = {
+		C37837071C22A03D0023F45A /* Build configuration list for PBXProject "Blackjack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C37837321C22A03E0023F45A /* Debug */,
@@ -490,7 +493,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C37837341C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Card War" */ = {
+		C37837341C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Blackjack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C37837351C22A03E0023F45A /* Debug */,
@@ -499,7 +502,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C37837371C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Card WarTests" */ = {
+		C37837371C22A03E0023F45A /* Build configuration list for PBXNativeTarget "BlackjackTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C37837381C22A03E0023F45A /* Debug */,
@@ -508,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C378373A1C22A03E0023F45A /* Build configuration list for PBXNativeTarget "Card WarUITests" */ = {
+		C378373A1C22A03E0023F45A /* Build configuration list for PBXNativeTarget "BlackjackUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C378373B1C22A03E0023F45A /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C378370B1C22A03E0023F45A"
-               BuildableName = "Card War.app"
-               BlueprintName = "Card War"
-               ReferencedContainer = "container:Card War.xcodeproj">
+               BuildableName = "Blackjack.app"
+               BlueprintName = "Blackjack"
+               ReferencedContainer = "container:Blackjack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C378371F1C22A03E0023F45A"
-               BuildableName = "Card WarTests.xctest"
-               BlueprintName = "Card WarTests"
-               ReferencedContainer = "container:Card War.xcodeproj">
+               BuildableName = "Blackjack.xctest"
+               BlueprintName = "BlackjackTests"
+               ReferencedContainer = "container:Blackjack.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C378372A1C22A03E0023F45A"
-               BuildableName = "Card WarUITests.xctest"
-               BlueprintName = "Card WarUITests"
-               ReferencedContainer = "container:Card War.xcodeproj">
+               BuildableName = "Blackjack.xctest"
+               BlueprintName = "BlackjackUITests"
+               ReferencedContainer = "container:Blackjack.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C378370B1C22A03E0023F45A"
-            BuildableName = "Card War.app"
-            BlueprintName = "Card War"
-            ReferencedContainer = "container:Card War.xcodeproj">
+            BuildableName = "Blackjack.app"
+            BlueprintName = "Blackjack"
+            ReferencedContainer = "container:Blackjack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C378370B1C22A03E0023F45A"
-            BuildableName = "Card War.app"
-            BlueprintName = "Card War"
-            ReferencedContainer = "container:Card War.xcodeproj">
+            BuildableName = "Blackjack.app"
+            BlueprintName = "Blackjack"
+            ReferencedContainer = "container:Blackjack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C378370B1C22A03E0023F45A"
-            BuildableName = "Card War.app"
-            BlueprintName = "Card War"
-            ReferencedContainer = "container:Card War.xcodeproj">
+            BuildableName = "Blackjack.app"
+            BlueprintName = "Blackjack"
+            ReferencedContainer = "container:Blackjack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

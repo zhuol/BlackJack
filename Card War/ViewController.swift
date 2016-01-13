@@ -18,6 +18,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var ForthCardView: UIImageView!
     @IBOutlet weak var FifthCardView: UIImageView!
     @IBOutlet weak var SixthCardView: UIImageView!
+    @IBOutlet weak var dealerFirstCardView: UIImageView!
+    @IBOutlet weak var dealerSecondCardView: UIImageView!
+    @IBOutlet weak var dealerThirdCardView: UIImageView!
+    @IBOutlet weak var dealerForthCardView: UIImageView!
+    @IBOutlet weak var dealerFifthCardView: UIImageView!
+    @IBOutlet weak var dealerSixthCardView: UIImageView!
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var dealerScoreLable: UILabel!
@@ -62,6 +68,12 @@ class ViewController: UIViewController {
             self.ForthCardView.image = UIImage(named: "")
             self.FifthCardView.image = UIImage(named: "")
             self.SixthCardView.image = UIImage(named: "")
+            self.dealerFirstCardView.image = UIImage(named: "")
+            self.dealerSecondCardView.image = UIImage(named: "")
+            self.dealerThirdCardView.image = UIImage(named: "")
+            self.dealerForthCardView.image = UIImage(named: "")
+            self.dealerFifthCardView.image = UIImage(named: "")
+            self.dealerSixthCardView.image = UIImage(named: "")
         }
 
         let dealerCardString:String = "card" + String(self.default_cards[cardIndex])
@@ -87,21 +99,27 @@ class ViewController: UIViewController {
         // Display cards
         if (self.cardCounter == 1) {
             self.FirstCardView.image = UIImage(named: playerCardString)
+            self.dealerFirstCardView.image = UIImage(named: dealerCardString)
         }
         else if (self.cardCounter == 2) {
             self.SecondCardView.image = UIImage(named: playerCardString)
+            self.dealerSecondCardView.image = UIImage(named: dealerCardString)
         }
         else if (self.cardCounter == 3) {
             self.ThirdCardView.image = UIImage(named: playerCardString)
+            self.dealerThirdCardView.image = UIImage(named: dealerCardString)
         }
         else if (self.cardCounter == 4) {
             self.ForthCardView.image = UIImage(named: playerCardString)
+            self.dealerForthCardView.image = UIImage(named: dealerCardString)
         }
         else if (self.cardCounter == 5) {
             self.FifthCardView.image = UIImage(named: playerCardString)
+            self.dealerFifthCardView.image = UIImage(named: dealerCardString)
         }
         else if (self.cardCounter == 6) {
             self.SixthCardView.image = UIImage(named: playerCardString)
+            self.dealerSixthCardView.image = UIImage(named: dealerCardString)
         }
         else{
             // To be handled..
@@ -110,13 +128,13 @@ class ViewController: UIViewController {
         
         // Judge cards value
         if (self.playerScore == 21) {
-            self.playerCardImageView.image = UIImage(named:"frontlable")
+            self.playerCardImageView.image = UIImage(named:"iTunesArtwork")
             self.cardCounter = 1
             self.playerScore = 0
             self.dealerScore = 0
         }
         else if (self.playerScore > 21) {
-            self.playerCardImageView.image = UIImage(named:"cardback")
+            self.playerCardImageView.image = UIImage(named:"frontlable")
             self.cardCounter = 1
             self.playerScore = 0
             self.dealerScore = 0
