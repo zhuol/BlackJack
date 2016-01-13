@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var dealerForthCardView: UIImageView!
     @IBOutlet weak var dealerFifthCardView: UIImageView!
     @IBOutlet weak var dealerSixthCardView: UIImageView!
-    @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var Hit: UIButton!
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var dealerScoreLable: UILabel!
     @IBOutlet weak var playerScoreLable: UILabel!
@@ -60,7 +60,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func playButtonTapped(sender: UIButton) {
+    @IBAction func HitTapped(sender: UIButton) {
         if(self.playerScore == 0){
             self.FirstCardView.image = UIImage(named: "")
             self.SecondCardView.image = UIImage(named: "")
