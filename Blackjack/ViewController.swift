@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     @IBAction func HitTapped(sender: UIButton) {
         if(self.playerScore == 0){
             self.FirstCardView.image = UIImage(named: "")
@@ -140,6 +140,14 @@ class ViewController: UIViewController {
             self.dealerScore = 0
         }
     }
-
+    
+    @IBAction func StandTapped(sender: UIButton) {
+    }
+    
+    @IBAction func DoubleTapped(sender: UIButton) {
+    }
+    
+    @IBAction func SplitTapped(sender: UIButton) {
+    }
 }
 
